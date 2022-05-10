@@ -1,0 +1,31 @@
+Arguments: 
+  /home/rikhard/.nvm/versions/node/v16.13.0/bin/node /home/rikhard/.nvm/versions/node/v16.13.0/bin/yarn
+
+PATH: 
+  /opt/anaconda/bin:/opt/anaconda/condabin:/home/rikhard/.nvm/versions/node/v16.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /media/rikhard/CBDBE80E329B3298/Backup_kenzie/1kenzie_academy/M3/sp4/Capstone/server/JSON-server/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /home/rikhard/.nvm/versions/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/rikhard/.nvm/versions/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/rikhard/.nvm/versions/node/v16.13.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

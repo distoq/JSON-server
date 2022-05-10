@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$oQqnqq9L7NpO.xJiT0W7H.XK55530xGP8rDtknnuTuUFhd.rgN1qK",
+      "name": "testandoFakeApi",
+      "age": 38,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "userId": 2,
+      "name": "X-burger",
+      "category": "Sanduíches",
+      "image": "url",
+      "price": 25,
+      "rating": 4,
+      "description": "Pão, 180g de hambúrguer de primeira, alface,tomate, maionese da casa",
+      "quantity": 10 
+
+    },
+    {
+      "id": 2,
+      "name": "X-burger",
+      "category": "Sanduíches",
+      "image": "url",
+      "price": 25,
+      "rating": 4,
+      "description": "Pão, 180g de hambúrguer de primeira, alface,tomate, maionese da casa",
+      "quantity": 10 
+
+    }
+  ],
+  "providers": [
+    {
+      "companyName": "Coca Cola S.A.",
+      "fantasyName": "Coca Cola",
+      "cnpj": "00.000.000/0001-00",
+      "ie": "00.000.000-2",
+      "supplyList": [],
+      "address": {
+       "cep": "00000-000",
+       "street": "",
+       "number": "",
+       "complement": "",
+       "district": "district",
+        "city": "city",
+        "state": "state"
+      },
+      "userId": 1
+    }
+  ]
+}
