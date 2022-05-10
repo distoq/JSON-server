@@ -1,55 +1,79 @@
 {
   "users": [
     {
-      "email": "teste@gmail.com",
-      "password": "$2a$10$oQqnqq9L7NpO.xJiT0W7H.XK55530xGP8rDtknnuTuUFhd.rgN1qK",
-      "name": "testandoFakeApi",
-      "age": 38,
-      "id": 2
+      "email": "destoq@proton.me",
+      "password": "$2a$10$wOmglg/X2zilkC/wkxMjQ.OLgEJiqdON6FNgqACF0ooucP/dscG7e",
+      "name": "Admin",
+      "id": 1
     }
   ],
   "products": [
     {
       "id": 1,
-      "userId": 2,
+      "userId": 1,
+      "ownerId": 1,
       "name": "X-burger",
       "category": "Sanduíches",
       "image": "url",
-      "price": 25,
+      "price": 20,
       "rating": 4,
-      "description": "Pão, 180g de hambúrguer de primeira, alface,tomate, maionese da casa",
-      "quantity": 10 
-
+      "description": "Pão, 180g de hambúrguer de primeira, alface, tomate, maionese da casa",
+      "quantity": 10
     },
     {
       "id": 2,
+      "userId": 1,
+      "ownerId": 1,
       "name": "X-burger",
       "category": "Sanduíches",
       "image": "url",
       "price": 25,
       "rating": 4,
-      "description": "Pão, 180g de hambúrguer de primeira, alface,tomate, maionese da casa",
-      "quantity": 10 
-
+      "description": "Pão, 180g de hambúrguer de primeira, alface, tomate, maionese da casa",
+      "quantity": 10
     }
   ],
   "providers": [
     {
+      "id": 1,
+      "userId": 1,
+      "ownerId": 1,
       "companyName": "Coca Cola S.A.",
       "fantasyName": "Coca Cola",
       "cnpj": "00.000.000/0001-00",
       "ie": "00.000.000-2",
       "supplyList": [],
       "address": {
-       "cep": "00000-000",
-       "street": "",
-       "number": "",
-       "complement": "",
-       "district": "district",
+        "cep": "00000-000",
+        "street": "",
+        "number": "",
+        "complement": "",
+        "district": "district",
         "city": "city",
         "state": "state"
-      },
-      "userId": 1
+      }
+    }
+  ],
+  "supplies": [
+    {
+      "id": 1,
+      "userId": 1,
+      "ownerId": 1,
+      "name": "Carne Bovina",
+      "supplier": "Bovmeat S.A",
+      "category": "carne",
+      "quantity": 100,
+      "price": "?"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "ownerId": 1,
+      "name": "Pão Tradicional com Gergelim",
+      "supplier": "Bread S.A",
+      "category": "pão",
+      "quantity": 100,
+      "price": "?"
     }
   ]
 }
