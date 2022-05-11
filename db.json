@@ -214,15 +214,32 @@
       "fantasyName": "Coca Cola",
       "cnpj": "00.000.000/0001-00",
       "ie": "00.000.000-2",
-      "supplyList": [],
       "address": {
-        "cep": "00000-000",
-        "street": "",
-        "number": "",
+        "cep": "10000-000",
+        "street": "dos Bandeirantes",
+        "number": "111",
         "complement": "",
         "district": "district",
-        "city": "city",
-        "state": "state"
+        "city": "São Paulo",
+        "state": "SP"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Bovmeat S.A.",
+      "fantasyName": "Bovmeat",
+      "cnpj": "00.000.000/0002-00",
+      "ie": "00.000.000-3",
+      "address": {
+        "cep": "20000-000",
+        "street": "dos Expedicionários",
+        "number": "222",
+        "complement": "",
+        "district": "district",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
       }
     }
   ],
@@ -235,7 +252,7 @@
       "supplier": "Bovmeat S.A",
       "category": "carne",
       "quantity": 100,
-      "price": "?"
+      "price": 1300
     },
     {
       "id": 2,
@@ -245,7 +262,7 @@
       "supplier": "Bread S.A",
       "category": "pão",
       "quantity": 100,
-      "price": "?"
+      "price": 800
     }
   ]
 }
