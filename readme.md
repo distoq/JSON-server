@@ -1,6 +1,6 @@
 # DEStoq API (JSON-server)
 
-Bem vindo a fake API do projeto DEStoq. Esa API tem como objetivo abastecer o frontend de um CRM de hamburgueria fazendo conexões entre estoque e pedidos.
+Bem vindo a fake API do projeto DEStoq. Esa API tem como objetivo abastecer o frontend de um CRM para micro e pequenas hamburguerias com foco no controle de estoque.
 
 ## Base URL
 
@@ -12,7 +12,7 @@ Atualmente a API propõe um total de 4 Endpoints para realização de cadastro, 
 
 ## -Fazer um cadastro
 
-_`POST`_ /register
+**`POST`** _/register_
 
 Apenas email e senha são requeridos para o cadastro.
 
@@ -52,7 +52,9 @@ Apenas email e senha são requeridos para o cadastro.
 
 ## -Hora de Logar!
 
-_`POST`_ /login
+**`POST`** _/login_
+
+É necessário apenas email e senha para realização do login, e sera recebido o token e acesso para realizar autenticações.
 
 ### body:
 
@@ -64,6 +66,8 @@ _`POST`_ /login
 ```
 
 ### Response
+
+É recomendado salvar o token localmente para realizar autenticação
 
 ```
 {
@@ -78,7 +82,9 @@ _`POST`_ /login
 
 ## -Listar todos os produtos
 
-_`GET`_ /products
+**`GET`** _/products_
+
+Este endpoint retorna todos os produtos e não é necessário autenticação para acessá-lo.
 
 ### Response
 
@@ -110,13 +116,14 @@ _`GET`_ /products
 		"description": "Pão, 180g de hambúrguer de primeira, alface, muito bacon e nosso molho especial da casa.",
 		"quantity": 10
 	},
+  {...}
 ```
 
 É possível usar o query params para filtrar a partir de categorias, rating e mais a partir de /products?{tipo}{comparador}{parametro}:
 
 ### Exemplos:
 
-_`GET`_ /products?category=porcoes
+**`GET`** _/products?category=porcoes_
 
 ```
 [
@@ -149,7 +156,7 @@ _`GET`_ /products?category=porcoes
 ]
 ```
 
-_`GET`_ /products?rating>=4
+**`GET`** _/products?rating>=4_
 
 ```
 [
@@ -191,13 +198,16 @@ _`GET`_ /products?rating>=4
 		"rating": 5,
 		"description": "Pão, 180g de hambúrguer de grão de bico, alface, tomate, pickles e maionese da casa.",
 		"quantity": 10
-	}
+	},
+  {...}
 ]
 ```
 
 ## -Mostrar usuário
 
-_`GET`_ /users/:user_id
+**`GET`** _/users/:user_id_
+
+Este endpoint recebe um id. Note que apenas é possível acessar o usuário referente ao token.
 
 ### Auth:
 
@@ -221,7 +231,7 @@ _`GET`_ /users/:user_id
 
 Response:
 
-`400` Bad Resquest
+`400` _Bad Resquest_
 
 ```
 "Email already exists"
@@ -231,7 +241,7 @@ Response:
 
 Response:
 
-`400` Bad Resquest
+`400` _Bad Resquest_
 
 ```
 "Email and password are required"
@@ -241,7 +251,7 @@ Response:
 
 Response:
 
-`401` Unauthorized
+`401` _Unauthorized_
 
 ```
 "Missing token"
@@ -251,7 +261,7 @@ Response:
 
 Response:
 
-`403` Forbidden
+`403` _Forbidden_
 
 ```
 "Private resource access: entity must have a reference to the owner id"
