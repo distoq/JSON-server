@@ -251,8 +251,7 @@
       "name": "Carne Bovina",
       "supplier": "Bovmeat S.A",
       "category": "carne",
-      "quantity": 100,
-      "price": 1300
+      "purchasePrice": 1300
     },
     {
       "id": 2,
@@ -260,9 +259,35 @@
       "ownerId": 1,
       "name": "Pão Tradicional com Gergelim",
       "supplier": "Bread S.A",
-      "category": "pão",
-      "quantity": 100,
-      "price": 800
+      "category": "pao",
+      "purchasePrice": 800
     }
-  ]
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "userId": 1,
+      "ownerId": 1,
+      "name": "Pão Tradicional com Gergelim",
+      "supplier": "Bread S.A",
+      "category": "pao",
+      "purchasePrice": 800,
+      "quantity": 100,
+      "metricUnity": "Un"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "ownerId": 1,
+      "name": "Heineken",
+      "supplier": "Coca Cola S.A",
+      "category": "pao",
+      "purchasePrice": 800,
+      "quantity": 100,
+      "metricUnity": "Un"
+    }
+  ],
+  "finances": [],
+  "orders": [],
+  "tickets": []
 }
