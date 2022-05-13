@@ -1,6 +1,6 @@
 # DEStoq API (JSON-server)
 
-Bem vindo a fake API do projeto DEStoq. Esa API tem como objetivo abastecer o frontend de um CRM para micro e pequenas hamburguerias com foco no controle de estoque.
+Bem vindo à fake API do projeto DEStoq! Essa API tem como objetivo abastecer o frontend de um CRM para micro e pequenas empresas com foco no controle de estoque.
 
 ## Base URL
 
@@ -8,9 +8,9 @@ Esta é a base URL para consumir a API: https://destoq.herokuapp.com
 
 # Endpoints
 
-Atualmente a API propõe um total de 4 Endpoints para realização de cadastro, login, produtos e usuários(sendo o último necessário autenticação)
+Atualmente a API propõe um total de 4 Endpoints para realização de cadastro, login, produtos e usuários (sendo o último necessário autenticação)
 
-## -Fazer um cadastro
+## - Fazer um cadastro
 
 **`POST`** _/register_
 
@@ -50,11 +50,11 @@ Apenas email e senha são requeridos para o cadastro.
 }
 ```
 
-## -Hora de Logar!
+## - Hora de Logar!
 
 **`POST`** _/login_
 
-É necessário apenas email e senha para realização do login, e sera recebido o token e acesso para realizar autenticações.
+É necessário apenas email e senha para realização do login, e será recebido o token e acesso para realizar autenticações.
 
 ### body:
 
@@ -67,7 +67,7 @@ Apenas email e senha são requeridos para o cadastro.
 
 ### Response
 
-É recomendado salvar o token localmente para realizar autenticação
+É recomendado salvar o token localmente para realizar autenticação.
 
 ```
 {
@@ -80,7 +80,7 @@ Apenas email e senha são requeridos para o cadastro.
 }
 ```
 
-## -Listar todos os produtos
+## - Listar todos os produtos
 
 **`GET`** _/products_
 
@@ -119,7 +119,7 @@ Este endpoint retorna todos os produtos e não é necessário autenticação par
   {...}
 ```
 
-É possível usar o query params para filtrar a partir de categorias, rating e mais a partir de /products?{tipo}{comparador}{parametro}:
+É possível usar o query params para filtrar a partir de categorias, rating e mais a partir de /products?{tipo}{comparador}{parametro}
 
 ### Exemplos:
 
@@ -203,7 +203,7 @@ Este endpoint retorna todos os produtos e não é necessário autenticação par
 ]
 ```
 
-## -Mostrar usuário
+## - Mostrar usuário
 
 **`GET`** _/users/:user_id_
 
@@ -211,7 +211,7 @@ Este endpoint recebe um id. Note que apenas é possível acessar o usuário refe
 
 ### Auth:
 
-É necessário token de autenticação
+É necessário token de autenticação.
 
 ### Response:
 
@@ -257,7 +257,7 @@ Response:
 "Missing token"
 ```
 
-## Ao tentar acessar /users com id diferente do token de autenticação ou sem id
+## Ao tentar acessar /users com id diferente do token de autenticação ou sem id:
 
 Response:
 
