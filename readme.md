@@ -119,7 +119,7 @@ Este endpoint retorna todos os produtos e não é necessário autenticação par
   {...}
 ```
 
-É possível usar o query params para filtrar a partir de categorias, rating e mais a partir de /products?{tipo}{comparador}{parametro}
+É possível usar o query params para filtrar a partir de categorias, rating e mais.
 
 ### Exemplos:
 
@@ -202,26 +202,183 @@ Este endpoint retorna todos os produtos e não é necessário autenticação par
   {...}
 ]
 ```
+## - Providers
+
+**`GET`** _/providers_
+
+Precisa de Auenticação. Retorna a liste de providers:
+
+```
+[
+	{
+		"id": 1,
+		"userId": 1,
+		"ownerId": 1,
+		"companyName": "Coca Cola S.A.",
+		"fantasyName": "Coca Cola",
+		"cnpj": "00.000.000/0001-00",
+		"ie": "00.000.000-2",
+		"address": {
+			"cep": "10000-000",
+			"street": "dos Bandeirantes",
+			"number": "111",
+			"complement": "",
+			"district": "district",
+			"city": "São Paulo",
+			"state": "SP"
+		}
+	},
+	{
+		"id": 2,
+		"userId": 1,
+		"ownerId": 1,
+		"companyName": "Bovmeat S.A.",
+		"fantasyName": "Bovmeat",
+		"cnpj": "00.000.000/0002-00",
+		"ie": "00.000.000-3",
+		"address": {
+			"cep": "20000-000",
+			"street": "dos Expedicionários",
+			"number": "222",
+			"complement": "",
+			"district": "district",
+			"city": "Rio de Janeiro",
+			"state": "RJ"
+		}
+	}
+]
+```
+**`POST`** _/providers_
+
+Necessário autenticação.
+
+body:
+```
+{
+		"id": 1,
+	"userId": 1,
+	"ownerId": 1,
+	"companyName": "Coca Cola S.A.",
+	"fantasyName": "Coca Cola",
+	"cnpj": "00.000.000/0001-00",
+	"ie": "00.000.000-2",
+	"address": {
+		"cep": "10000-000",
+		"street": "dos Bandeirantes",
+		"number": "111",
+		"complement": "",
+		"district": "district",
+		"city": "São Paulo",
+		"state": "SP"
+}
+```
+
+## - Supplies
+
+**`GET`** _/supplies_
+
+Precisa de Auenticação. Retorna a liste de Supplies:
+
+```
+[
+	{
+		"id": 1,
+		"userId": 1,
+		"ownerId": 1,
+		"name": "Carne Bovina",
+		"supplier": "Bovmeat S.A",
+		"category": "carne",
+		"purchasePrice": 1300
+	},
+	{
+		"id": 2,
+		"userId": 1,
+		"ownerId": 1,
+		"name": "Pão Tradicional com Gergelim",
+		"supplier": "Bread S.A",
+		"category": "pao",
+		"purchasePrice": 800
+	}
+]
+```
+
+**`POST`** _/supplies_
+
+Necessário autenticação.
+
+body:
+```
+{
+	"id": 4,
+	"userId": 1,
+	"ownerId": 1,
+	"name": "Carne Suina",
+	"supplier": "meat S.A",
+	"category": "carne",
+	"purchasePrice": 1300
+}
+```
+## - Tickets
+
+**`GET`** _/tickets_
+
+Lista todos os tickets.
+
+```
+[
+	{
+		exemplo aqui
+	}
+]
+
+```
+
+## - Finances
+
+**`GET`** _/finances_
+
+Lista todas as financias.
+
+```
+[
+	{
+		exemplo aqui
+	}
+]
+
+```
 
 ## - Mostrar usuário
 
-**`GET`** _/users/:user_id_
+**`GET`** _/users
 
-Este endpoint recebe um id. Note que apenas é possível acessar o usuário referente ao token.
-
-### Auth:
-
-É necessário token de autenticação.
+Mostra a lista de usuários cadastrados:
 
 ### Response:
 
 ```
-{
-	"email": "email@email.com",
-	"password": "{encrypted password}",
-	"name": "fulano",
-	"id": 2
-}
+[
+	{
+		"email": "destoq@proton.me",
+		"password": "$2a$10$wOmglg/X2zilkC/wkxMjQ.OLgEJiqdON6FNgqACF0ooucP/dscG7e",
+		"name": "Admin",
+		"id": 1,
+		"userId": 1
+	},
+	{
+		"email": "clau@mail.com",
+		"password": "$2a$10$2aY5DTV3Y7U3QXuSGbzv1.GO79ckvBQkVJCVKSktvZITdC3ZQtbYq",
+		"name": "Claudinha",
+		"addressInfo": {
+			"cep": "80060100",
+			"address": "Rua Conselheiro Laurindo",
+			"city": "Curitiba",
+			"state": "PR",
+			"number": "100"
+		},
+		"id": 2
+	}
+]
 
 ```
 
