@@ -12,7 +12,7 @@ const rules = auth.rewriter({
   supplies: 644,
   finances: 644,
   orders: 644,
-  tickets: 644
+  tickets: 664
 });
 app.use(cors());
 app.use(rules);
