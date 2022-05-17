@@ -8,11 +8,11 @@ app.db = router.db;
 const rules = auth.rewriter({
   users: 664,
   products: 644,
-  providers: 600,
-  supplies: 600,
-  finances: 600,
-  orders: 600,
-  tickets: 600
+  providers: 644,
+  supplies: 644,
+  finances: 644,
+  orders: 644,
+  tickets: 644
 });
 app.use(cors());
 app.use(rules);
