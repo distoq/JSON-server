@@ -4,7 +4,8 @@
       "email": "destoq@proton.me",
       "password": "$2a$10$wOmglg/X2zilkC/wkxMjQ.OLgEJiqdON6FNgqACF0ooucP/dscG7e",
       "name": "Admin",
-      "id": 1
+      "id": 1,
+      "userId": 1
     }
   ],
   "products": [
