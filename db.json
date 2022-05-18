@@ -266,26 +266,57 @@
   ],
   "stock": [
     {
-      "id": 1,
-      "userId": 1,
+      "quantity": 324,
+      "providerId": 2,
+      "supplyId": 4,
+      "purchasePrice": 12,
+      "totalValue": 3888,
       "ownerId": 1,
-      "name": "Pão Tradicional com Gergelim",
-      "supplier": "Bread S.A",
-      "category": "pao",
-      "purchasePrice": 800,
-      "quantity": 100,
-      "metricUnity": "Un"
-    },
-    {
-      "id": 2,
       "userId": 1,
-      "ownerId": 1,
-      "name": "Heineken",
-      "supplier": "Coca Cola S.A",
-      "category": "pao",
-      "purchasePrice": 800,
-      "quantity": 100,
-      "metricUnity": "Un"
+      "supplyData": {
+        "measurementUnit": "Un",
+        "purchasePrice": 12,
+        "provider": "2",
+        "category": "Lacticínios",
+        "name": "dsa",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 2,
+        "id": 4
+      },
+      "providerData": {
+        "id": 2,
+        "userId": 1,
+        "ownerId": 1,
+        "companyName": "Bovmeat S.A.",
+        "fantasyName": "Bovmeat",
+        "cnpj": "00.000.000/0002-00",
+        "ie": "00.000.000-3",
+        "address": {
+          "cep": "20000-000",
+          "street": "dos Expedicionários",
+          "number": "222",
+          "complement": "",
+          "district": "district",
+          "city": "Rio de Janeiro",
+          "state": "RJ"
+        },
+        "supplies": [
+          {
+            "measurementUnit": "Un",
+            "purchasePrice": 12,
+            "provider": "2",
+            "category": "Lacticínios",
+            "name": "dsa",
+            "ownerId": 1,
+            "userId": 1,
+            "providerId": 2,
+            "id": 4
+          }
+        ]
+      },
+      "status": "Emitido",
+      "id": 6
     }
   ],
   "finances": [],
