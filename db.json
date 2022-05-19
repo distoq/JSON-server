@@ -320,24 +320,6 @@
       "state": "PR"
       },
       "id": 4
-    },
-    {
-      "userId": 1,
-      "ownerId": 1,
-      "companyName": "JBS",
-      "fantasyName": "Friboi",
-      "cnpj": "54345678932456",
-      "ie": "123456789",
-      "address": {
-        "cep": "16404110",
-        "street": "Parque industrial LIns",
-        "number": "4367",
-        "complement": "",
-        "district": "Centro",
-        "city": "Lins",
-        "state": "PR"
-      },
-      "id": 4
     }
 
   ],
