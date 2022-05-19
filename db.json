@@ -321,5 +321,49 @@
   ],
   "finances": [],
   "orders": [],
-  "tickets": []
+  "tickets": [],
+  "developers": [
+    {
+      "id": 1,
+      "name": "Gabriel Schineider",
+      "picture": "https://avatars.githubusercontent.com/u/95247605?v=4",
+      "position": "Product Owner",
+      "contact": "https://github.com/dejazz"
+    },
+    {
+      "id": 2,
+      "name": "Tarcila Garcia",
+      "picture": "https://avatars.githubusercontent.com/u/91735036?v=4",
+      "position": "Scrum Master",
+      "contact": "https://github.com/tarcilasg"
+    },
+    {
+      "id": 3,
+      "name": "Richard Cândido",
+      "picture": "https://avatars.githubusercontent.com/u/92825642?v=4",
+      "position": "Tech Leader",
+      "contact": "https://github.com/rich-dacan"
+    },
+    {
+      "id": 4,
+      "name": "Rafael Mallorga",
+      "picture": "https://avatars.githubusercontent.com/u/60415930?v=4",
+      "position": "Quality Assurance",
+      "contact": "https://github.com/rafhaelmallorga"
+    },
+    {
+      "id": 5,
+      "name": "Acauan Nascimento",
+      "picture": "https://avatars.githubusercontent.com/u/91680125?v=4",
+      "position": "Quality Assurance",
+      "contact": "https://github.com/acauankz"
+    },
+    {
+      "id": 6,
+      "name": "Lucas Bacelar",
+      "picture": "https://avatars.githubusercontent.com/u/95295788?v=4",
+      "position": "Quality Assurance",
+      "contact": "https://github.com/Iluscadev"
+    }
+  ]
 }
