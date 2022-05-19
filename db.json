@@ -49,204 +49,773 @@
       "id": 4
     }
   ],
-  "products": [
+
+  "developers": [
     {
       "id": 1,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Classic's Burger",
-      "category": "sanduiches",
-      "image": "https://i.pinimg.com/564x/e5/6c/7e/e56c7e393100191ba9958d734cd0d0f2.jpg",
-      "price": 18.9,
-      "promotion": false,
-      "rating": 5,
-      "description": "Pão tradicional com gergelim, 180g de hambúrguer Angus, alface, tomate e nossa maionese especial da casa.",
-      "quantity": 10
+      "name": "Gabriel Schneider",
+      "picture": "https://avatars.githubusercontent.com/u/95247605?v=4",
+      "position": "Product Owner",
+      "contact": "https://github.com/dejazz"
     },
     {
       "id": 2,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Big Bacon",
-      "category": "sanduiches",
-      "image": "https://i.pinimg.com/564x/1f/60/23/1f6023d0124c931c71d1c5900e49a8bd.jpg",
-      "price": 26.9,
-      "promotion": true,
-      "rating": 4,
-      "description": "Pão, 180g de hambúrguer de primeira, alface, muito bacon e nosso molho especial da casa.",
-      "quantity": 10
+      "name": "Tarcila Garcia",
+      "picture": "https://avatars.githubusercontent.com/u/91735036?v=4",
+      "position": "Scrum Master",
+      "contact": "https://github.com/tarcilasg"
     },
     {
       "id": 3,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "X-Veg",
-      "category": "sanduiches",
-      "image": "https://i.pinimg.com/564x/dd/9f/be/dd9fbec5211ff778bf28f1f5c858f8ce.jpg",
-      "price": 22.49,
-      "promotion": false,
-      "rating": 5,
-      "description": "Pão, 180g de hambúrguer de grão de bico, alface, tomate, pickles e maionese da casa.",
-      "quantity": 10
+      "name": "Richard Cândido",
+      "picture": "https://avatars.githubusercontent.com/u/92825642?v=4",
+      "position": "Tech Leader",
+      "contact": "https://github.com/rich-dacan"
     },
     {
       "id": 4,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Chicken Master",
-      "category": "sanduiches",
-      "image": "https://i.pinimg.com/564x/1f/03/6b/1f036b5674b64f3d2e899c226253df33.jpg",
-      "price": 20.9,
-      "promotion": false,
-      "rating": 5,
-      "description": "Pão, 180g de hambúrguer de frango recheado com queijo, alface, cebola roxa, pickles e nosso molho especial da casa.",
-      "quantity": 10
+      "name": "Rafael Mallorga",
+      "picture": "https://avatars.githubusercontent.com/u/60415930?v=4",
+      "position": "Quality Assurance",
+      "contact": "https://github.com/rafhaelmallorga"
     },
     {
       "id": 5,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Hunger Killer",
-      "category": "sanduiches",
-      "image": "https://i.pinimg.com/564x/4d/5d/98/4d5d981b39836c44755b4f9414ab8de1.jpg",
-      "price": 29.9,
-      "promotion": false,
-      "rating": 5,
-      "description": "Pão,  dois hambúrgueres de 180g de carne Angus, creme de cheddar, cebola roxa, pickles e nosso molho especial da casa.",
-      "quantity": 10
+      "name": "Acauan Nascimento",
+      "picture": "https://avatars.githubusercontent.com/u/91680125?v=4",
+      "position": "Quality Assurance",
+      "contact": "https://github.com/acauankz"
     },
     {
       "id": 6,
-      "userId": 1,
+      "name": "Lucas Bacelar",
+      "picture": "https://avatars.githubusercontent.com/u/95295788?v=4",
+      "position": "Quality Assurance",
+      "contact": "https://github.com/Iluscadev"
+    }
+  ],
+
+  "products": [
+    {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/e5/6c/7e/e56c7e393100191ba9958d734cd0d0f2.jpg",
+      "price": 18.9,
+      "category": "Lanches",
+      "name": "Classic's Burguer",
       "ownerId": 1,
-      "name": "Onion Rings",
-      "category": "porcoes",
+      "userId": 1,
+      
+      "ingredients": [
+      
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 1.5,
+        "provider": "3",
+        "category": "Panificadora",
+        "name": "Pao de Hamburguer",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 1,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "4",
+        "category": "Carnes",
+        "name": "Hamburguer de Carne",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 4,
+        "id": 2,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.2,
+        "provider": "3",
+        "category": "Hortaliças",
+        "name": "Alface",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 3,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.5,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Queijo",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 4,
+        "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/1f/60/23/1f6023d0124c931c71d1c5900e49a8bd.jpg",
+      "price": 26.9,
+      "category": "Lanches",
+      "name": "Big Bacon",
+      "ownerId": 1,
+      "userId": 1,
+
+      "ingredients": [
+      
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 1.5,
+        "provider": "3",
+        "category": "Panificadora",
+        "name": "Pao de Hamburguer",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 1,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "4",
+        "category": "Carnes",
+        "name": "Hamburguer de Carne",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 4,
+        "id": 2,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.2,
+        "provider": "3",
+        "category": "Hortaliças",
+        "name": "Alface",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 3,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.5,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Queijo",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 4,
+        "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 2
+    },
+    {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/dd/9f/be/dd9fbec5211ff778bf28f1f5c858f8ce.jpg",
+      "price": 22.49,
+      "category": "Lanches",
+      "name": "X-veg",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 1.5,
+        "provider": "3",
+        "category": "Panificadora",
+        "name": "Pao de Hamburguer",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 1,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "4",
+        "category": "Carnes",
+        "name": "Hamburguer de Carne",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 4,
+        "id": 2,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.2,
+        "provider": "3",
+        "category": "Hortaliças",
+        "name": "Alface",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 3,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.5,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Queijo",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 4,
+        "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 3
+    },
+    {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/1f/03/6b/1f036b5674b64f3d2e899c226253df33.jpg",
+      "price": 20.9,
+      "category": "Lanches",
+      "name": "Chicken Master",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 1.5,
+        "provider": "3",
+        "category": "Panificadora",
+        "name": "Pao de Hamburguer",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 1,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "4",
+        "category": "Carnes",
+        "name": "Hamburguer de Carne",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 4,
+        "id": 2,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.2,
+        "provider": "3",
+        "category": "Hortaliças",
+        "name": "Alface",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 3,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.5,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Queijo",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 4,
+        "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 4
+    },
+    {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/4d/5d/98/4d5d981b39836c44755b4f9414ab8de1.jpg",
+      "price": 29.9,
+      "category": "Lanches",
+      "name": "Hunger Killer",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 1.5,
+        "provider": "3",
+        "category": "Panificadora",
+        "name": "Pao de Hamburguer",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 1,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "4",
+        "category": "Carnes",
+        "name": "Hamburguer de Carne",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 4,
+        "id": 2,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.2,
+        "provider": "3",
+        "category": "Hortaliças",
+        "name": "Alface",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 3,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.5,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Queijo",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 4,
+        "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 5
+    },
+    {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/10/df/43/10df436c04bbb105d1bd464d30f5fd09.jpg",
+      "price": 20.9,
+      "category": "Porcoes",
+      "name": "Rustic Fried Potatoes",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 1.5,
+        "provider": "3",
+        "category": "Panificadora",
+        "name": "Pao de Hamburguer",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 1,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "4",
+        "category": "Carnes",
+        "name": "Hamburguer de Carne",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 4,
+        "id": 2,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.2,
+        "provider": "3",
+        "category": "Hortaliças",
+        "name": "Alface",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 3,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.5,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Queijo",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 4,
+        "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 6
+    },
+    {
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/b5/19/ba/b519ba437a71aa0d8f3df1af579a6f8c.jpg",
       "price": 20.9,
-      "promotion": true,
+      "category": "Porcoes",
+      "name": "Onion Rings",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.2,
+        "provider": "3",
+        "category": "Hortaliças",
+        "name": "Alface",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 3,
+        "qty": 1
+        }
+      ],
       "rating": 5,
-      "description": "Deliciosa porção de cebola frita empanada. Crocante até a última mordida! Acompanha nosso molho sour cream.",
-      "quantity": 10
+      "id": 7
     },
     {
-      "id": 7,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Rustic Fried Potatoes",
-      "category": "porcoes",
-      "image": "https://i.pinimg.com/564x/10/df/43/10df436c04bbb105d1bd464d30f5fd09.jpg",
-      "price": 21.9,
-      "promotion": false,
-      "rating": 5,
-      "description": "Deliciosa porção de batata rústica frita com nosso famoso tempero caseiro! Acompanha nosso molho especial da casa.",
-      "quantity": 10
-    },
-    {
-      "id": 8,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Coca Cola",
-      "category": "bebidas",
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/c1/ac/7d/c1ac7d80d57ef2f96ece63ca34bcb0f3.jpg",
       "price": 6,
-      "promotion": false,
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2.5,
+        "provider": "1",
+        "category": "Bebidas",
+        "name": "Coca Cola - Lata 350ml",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 1,
+        "id": 5,
+        "qty": 1
+        }
+      ],
       "rating": 5,
-      "description": "Refrigerante Coca Cola lata, 350ml, geladíssimo como deve ser!",
-      "quantity": 10
+      "id": 8
     },
     {
-      "id": 9,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Fanta Laranja",
-      "category": "bebidas",
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/d7/97/c9/d797c9575a821a35fa876408ea932f33.jpg",
       "price": 4,
-      "promotion": true,
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+          "measurementUnit": "Un",
+          "purchasePrice": 2,
+          "provider": "1",
+          "category": "Bebidas",
+          "name": "Fanta Laranja - Lata 350ml",
+          "ownerId": 1,
+          "userId": 1,
+          "providerId": 1,
+          "id": 8,
+          "qty": 1
+        }
+      ],
       "rating": 5,
-      "description": "Refrigerante Fanta Laranja lata, 220ml, geladíssimo como deve ser!",
-      "quantity": 10
+      "id": 9
     },
     {
-      "id": 10,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Heineken",
-      "category": "bebidas",
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/00/20/d1/0020d19814fce964cb04fe9229a30f59.jpg",
-      "price": 19,
-      "promotion": false,
+      "price": 6,
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+          "measurementUnit": "Un",
+          "purchasePrice": 3,
+          "provider": "2",
+          "category": "Bebidas",
+          "name": "Cerveja Heineken - 350ml",
+          "ownerId": 1,
+          "userId": 1,
+          "providerId": 2,
+          "id": 6,
+          "qty": 1
+        }
+      ],
       "rating": 5,
-      "description": "Cerveja Heineken 600ml, geladíssima como deve ser!",
-      "quantity": 10
+      "id": 10
     },
     {
-      "id": 11,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Budweiser",
-      "category": "bebidas",
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/4b/39/9d/4b399d9118fa47f09dd699b2a4bb8066.jpg",
-      "price": 9,
-      "promotion": false,
+      "price": 6,
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+          "measurementUnit": "Un",
+          "purchasePrice": 3,
+          "provider": "2",
+          "category": "Bebidas",
+          "name": "Cerveja Budweiser - 350ml",
+          "ownerId": 1,
+          "userId": 1,
+          "providerId": 2,
+          "id": 9,
+          "qty": 1
+        }
+      ],
       "rating": 5,
-      "description": "Cerveja Budweiser Long Neck 330ml, geladíssima como deve ser!",
-      "quantity": 10
+      "id": 11
     },
     {
-      "id": 12,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Estrella Galícia ",
-      "category": "bebidas",
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/08/cb/d7/08cbd764b9f21b8350436a78012daa4e.jpg",
       "price": 14.9,
-      "promotion": true,
-      "rating": 4,
-      "description": "Cerveja Estrella Galícia 600ml, geladíssima como deve ser!",
-      "quantity": 10
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+          "measurementUnit": "Un",
+          "purchasePrice": 3,
+          "provider": "2",
+          "category": "Bebidas",
+          "name": "Estrella Galicia - 350ml",
+          "ownerId": 1,
+          "userId": 1,
+          "providerId": 2,
+          "id": 10,
+          "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 12
     },
     {
-      "id": 13,
-      "userId": 1,
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/3a/1e/1b/3a1e1bdd59838fe45cbfc252af8422dd.jpg",
+      "price": 3.5,
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
       "ownerId": 1,
-      "name": "Classic Milk Shake",
-      "category": "milkshake",
+      "userId": 1,
+      
+      "ingredients": [
+        {
+          "measurementUnit": "Un",
+          "purchasePrice": 1.8,
+          "provider": "1",
+          "category": "Bebidas",
+          "name": "Cerveja Amstel - Lata 350ml",
+          "ownerId": 1,
+          "userId": 1,
+          "providerId": 1,
+          "id": 7,
+          "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 13
+    },
+    {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/af/93/76/af9376a943d4fd7e46e9a1cf6df49a91.jpg",
+      "price": 30.9,
+      "category": "Sanduiche",
+      "name": "X-Death",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 1.5,
+        "provider": "3",
+        "category": "Panificadora",
+        "name": "Pao de Hamburguer",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 1,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "4",
+        "category": "Carnes",
+        "name": "Hamburguer de Carne",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 4,
+        "id": 2,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.2,
+        "provider": "3",
+        "category": "Hortaliças",
+        "name": "Alface",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 3,
+        "qty": 1
+        },
+        
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 0.5,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Queijo",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 4,
+        "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 14
+    },
+    {
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/e5/3c/d2/e53cd2135657d69deddde55c17a42827.jpg",
       "price": 14.9,
-      "promotion": false,
+      "category": "Bebidas",
+      "name": "Classic Milk Shake",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Leite",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 11,
+        "qty": 1
+        }
+      ],
       "rating": 5,
-      "description": "Milk shake de chocolate com cereja!",
-      "quantity": 10
+      "id": 15
     },
     {
-      "id": 14,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Milk Shake de Nutella",
-      "category": "milkshake",
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/5c/8e/03/5c8e0366eddc466cb2f8f15205bcdd95.jpg",
       "price": 17.9,
-      "promotion": false,
-      "rating": 4.5,
-      "description": "Milk shake de Nutella com cereja!",
-      "quantity": 10
+      "category": "Bebidas",
+      "name": "Milk Shake de Nutella",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Leite",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 11,
+        "qty": 1
+        }
+      ],
+      "rating": 5,
+      "id": 16
     },
     {
-      "id": 15,
-      "userId": 1,
-      "ownerId": 1,
-      "name": "Chesscake Shake ",
-      "category": "milkshake",
+      "description": "Uuuhm... que delicia!",
       "image": "https://i.pinimg.com/564x/e7/b0/5f/e7b05f385b470e1aba53ed6df75c6f44.jpg",
       "price": 13,
-      "promotion": false,
+      "category": "Bebidas",
+      "name": "Chesscake Shake",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+        {
+        "measurementUnit": "Un",
+        "purchasePrice": 2,
+        "provider": "3",
+        "category": "Lacticínios",
+        "name": "Leite",
+        "ownerId": 1,
+        "userId": 1,
+        "providerId": 3,
+        "id": 11,
+        "qty": 1
+        }
+      ],
       "rating": 5,
-      "description": "Novidade: Delicioso milk shake de Chesscake!",
-      "quantity": 10
+      "id": 17
     }
-
   ],
+
   "providers": [
     {
       "userId": 1,
@@ -323,126 +892,2451 @@
     }
 
   ],
+
   "supplies": [
     {
-      "id": 1,
-      "userId": 1,
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
       "ownerId": 1,
-      "name": "Carne Bovina",
-      "supplier": "Bovmeat S.A",
-      "category": "carne",
-      "purchasePrice": 1300
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
     },
     {
-      "id": 2,
-      "userId": 1,
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
       "ownerId": 1,
-      "name": "Pão Tradicional com Gergelim",
-      "supplier": "Bread S.A",
-      "category": "pao",
-      "purchasePrice": 800
+      "userId": 1,
+      "providerId": 4,
+      "id": 2
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+    },
+    {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
     }
   ],
+
   "stock": [
     {
-      "quantity": 324,
-      "providerId": 2,
-      "supplyId": 4,
-      "purchasePrice": 12,
-      "totalValue": 3888,
+      "quantity": 100,
+      "providerId": 1,
+      "supplyId": 5,
+      "purchasePrice": 2.5,
+      "totalValue": 250,
       "ownerId": 1,
       "userId": 1,
+      
       "supplyData": {
-        "measurementUnit": "Un",
-        "purchasePrice": 12,
-        "provider": "2",
-        "category": "Lacticínios",
-        "name": "dsa",
-        "ownerId": 1,
-        "userId": 1,
-        "providerId": 2,
-        "id": 4
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
       },
+      
       "providerData": {
-        "id": 2,
-        "userId": 1,
-        "ownerId": 1,
-        "companyName": "Bovmeat S.A.",
-        "fantasyName": "Bovmeat",
-        "cnpj": "00.000.000/0002-00",
-        "ie": "00.000.000-3",
-        "address": {
-          "cep": "20000-000",
-          "street": "dos Expedicionários",
-          "number": "222",
-          "complement": "",
-          "district": "district",
-          "city": "Rio de Janeiro",
-          "state": "RJ"
-        },
-        "supplies": [
-          {
-            "measurementUnit": "Un",
-            "purchasePrice": 12,
-            "provider": "2",
-            "category": "Lacticínios",
-            "name": "dsa",
-            "ownerId": 1,
-            "userId": 1,
-            "providerId": 2,
-            "id": 4
-          }
-        ]
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "COCA COLA INDUSTRIAS LTDA",
+      "fantasyName": "Coca Cola",
+      "cnpj": "45997418000153",
+      "ie": "398401264",
+      
+      "address": {
+      "cep": "22250040",
+      "street": "Pr De Botafogo",
+      "number": "374",
+      "complement": "ANDAR 12 PARTE",
+      "district": "Botafogo",
+      "city": "Rio De Janeiro",
+      "state": "RJ"
+      },
+      "id": 1,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 1
+    },
+    {
+      "quantity": 100,
+      "providerId": 1,
+      "supplyId": 7,
+      "purchasePrice": 1.8,
+      "totalValue": 180,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "COCA COLA INDUSTRIAS LTDA",
+      "fantasyName": "Coca Cola",
+      "cnpj": "45997418000153",
+      "ie": "398401264",
+      
+      "address": {
+      "cep": "22250040",
+      "street": "Pr De Botafogo",
+      "number": "374",
+      "complement": "ANDAR 12 PARTE",
+      "district": "Botafogo",
+      "city": "Rio De Janeiro",
+      "state": "RJ"
+      },
+      "id": 1,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 2
+    },
+    {
+      "quantity": 100,
+      "providerId": 1,
+      "supplyId": 8,
+      "purchasePrice": 2,
+      "totalValue": 200,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "COCA COLA INDUSTRIAS LTDA",
+      "fantasyName": "Coca Cola",
+      "cnpj": "45997418000153",
+      "ie": "398401264",
+      
+      "address": {
+      "cep": "22250040",
+      "street": "Pr De Botafogo",
+      "number": "374",
+      "complement": "ANDAR 12 PARTE",
+      "district": "Botafogo",
+      "city": "Rio De Janeiro",
+      "state": "RJ"
+      },
+      "id": 1,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 3
+    },
+    {
+      "quantity": 100,
+      "providerId": 2,
+      "supplyId": 6,
+      "purchasePrice": 3,
+      "totalValue": 300,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "AMBEV S.A.",
+      "fantasyName": "Ambev",
+      "cnpj": "07526557000100",
+      "ie": "849305621",
+      
+      "address": {
+      "cep": "04530001",
+      "street": "Rua Doutor Renato Paes de Barros",
+      "number": "1017",
+      "complement": "3 Andar Edificio Corp. Park",
+      "district": "ITAIM BIBI",
+      "city": "SAO PAULO",
+      "state": "SP"
+      },
+      "id": 2,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 4
+    },
+    {
+      "quantity": 100,
+      "providerId": 2,
+      "supplyId": 9,
+      "purchasePrice": 3,
+      "totalValue": 300,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "AMBEV S.A.",
+      "fantasyName": "Ambev",
+      "cnpj": "07526557000100",
+      "ie": "849305621",
+      
+      "address": {
+      "cep": "04530001",
+      "street": "Rua Doutor Renato Paes de Barros",
+      "number": "1017",
+      "complement": "3 Andar Edificio Corp. Park",
+      "district": "ITAIM BIBI",
+      "city": "SAO PAULO",
+      "state": "SP"
+      },
+      "id": 2,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 5
+    },
+    {
+      "quantity": 100,
+      "providerId": 2,
+      "supplyId": 10,
+      "purchasePrice": 3,
+      "totalValue": 300,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "AMBEV S.A.",
+      "fantasyName": "Ambev",
+      "cnpj": "07526557000100",
+      "ie": "849305621",
+      
+      "address": {
+      "cep": "04530001",
+      "street": "Rua Doutor Renato Paes de Barros",
+      "number": "1017",
+      "complement": "3 Andar Edificio Corp. Park",
+      "district": "ITAIM BIBI",
+      "city": "SAO PAULO",
+      "state": "SP"
+      },
+      "id": 2,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+      }
+      ]
       },
       "status": "Emitido",
       "id": 6
+    },
+    {
+      "quantity": 100,
+      "providerId": 3,
+      "supplyId": 1,
+      "purchasePrice": 1.5,
+      "totalValue": 150,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "80700300",
+      "street": "R. Marcelino Champagnat",
+      "number": "2162",
+      "complement": "",
+      "district": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "PR"
+      },
+      "id": 3,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 7
+    },
+    {
+      "quantity": 100,
+      "providerId": 3,
+      "supplyId": 3,
+      "purchasePrice": 0.2,
+      "totalValue": 20,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "80700300",
+      "street": "R. Marcelino Champagnat",
+      "number": "2162",
+      "complement": "",
+      "district": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "PR"
+      },
+      "id": 3,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 8
+    },
+    {
+      "quantity": 100,
+      "providerId": 3,
+      "supplyId": 4,
+      "purchasePrice": 0.5,
+      "totalValue": 50,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "80700300",
+      "street": "R. Marcelino Champagnat",
+      "number": "2162",
+      "complement": "",
+      "district": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "PR"
+      },
+      "id": 3,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 9
+    },
+    {
+      "quantity": 100,
+      "providerId": 3,
+      "supplyId": 11,
+      "purchasePrice": 2,
+      "totalValue": 200,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "80700300",
+      "street": "R. Marcelino Champagnat",
+      "number": "2162",
+      "complement": "",
+      "district": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "PR"
+      },
+      "id": 3,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 10
+    },
+    {
+      "quantity": 100,
+      "providerId": 4,
+      "supplyId": 2,
+      "purchasePrice": 2,
+      "totalValue": 200,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 4,
+      "id": 2
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "JBS",
+      "fantasyName": "Friboi",
+      "cnpj": "54345678932456",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "16404110",
+      "street": "Parque industrial LIns",
+      "number": "4367",
+      "complement": "",
+      "district": "Centro",
+      "city": "Lins",
+      "state": "PR"
+      },
+      "id": 4,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 4,
+      "id": 2
+      }
+      ]
+      },
+      "status": "Emitido",
+      "id": 11
+    }    
+  ],
+
+  "finances": [],
+
+  "orders": [
+    {
+      "quantity": 100,
+      "providerId": 1,
+      "supplyId": 5,
+      "purchasePrice": 2.5,
+      "totalValue": 250,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "COCA COLA INDUSTRIAS LTDA",
+      "fantasyName": "Coca Cola",
+      "cnpj": "45997418000153",
+      "ie": "398401264",
+      
+      "address": {
+      "cep": "22250040",
+      "street": "Pr De Botafogo",
+      "number": "374",
+      "complement": "ANDAR 12 PARTE",
+      "district": "Botafogo",
+      "city": "Rio De Janeiro",
+      "state": "RJ"
+      },
+      "id": 1,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "quantity": 100,
+      "providerId": 1,
+      "supplyId": 7,
+      "purchasePrice": 1.8,
+      "totalValue": 180,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "COCA COLA INDUSTRIAS LTDA",
+      "fantasyName": "Coca Cola",
+      "cnpj": "45997418000153",
+      "ie": "398401264",
+      
+      "address": {
+      "cep": "22250040",
+      "street": "Pr De Botafogo",
+      "number": "374",
+      "complement": "ANDAR 12 PARTE",
+      "district": "Botafogo",
+      "city": "Rio De Janeiro",
+      "state": "RJ"
+      },
+      "id": 1,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 2
+    },
+    {
+      "quantity": 100,
+      "providerId": 1,
+      "supplyId": 8,
+      "purchasePrice": 2,
+      "totalValue": 200,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "COCA COLA INDUSTRIAS LTDA",
+      "fantasyName": "Coca Cola",
+      "cnpj": "45997418000153",
+      "ie": "398401264",
+      
+      "address": {
+      "cep": "22250040",
+      "street": "Pr De Botafogo",
+      "number": "374",
+      "complement": "ANDAR 12 PARTE",
+      "district": "Botafogo",
+      "city": "Rio De Janeiro",
+      "state": "RJ"
+      },
+      "id": 1,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 5
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.8,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Cerveja Amstel - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 7
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 3
+    },
+    {
+      "quantity": 100,
+      "providerId": 2,
+      "supplyId": 6,
+      "purchasePrice": 3,
+      "totalValue": 300,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "AMBEV S.A.",
+      "fantasyName": "Ambev",
+      "cnpj": "07526557000100",
+      "ie": "849305621",
+      
+      "address": {
+      "cep": "04530001",
+      "street": "Rua Doutor Renato Paes de Barros",
+      "number": "1017",
+      "complement": "3 Andar Edificio Corp. Park",
+      "district": "ITAIM BIBI",
+      "city": "SAO PAULO",
+      "state": "SP"
+      },
+      "id": 2,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 4
+    },
+    {
+      "quantity": 100,
+      "providerId": 2,
+      "supplyId": 9,
+      "purchasePrice": 3,
+      "totalValue": 300,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "AMBEV S.A.",
+      "fantasyName": "Ambev",
+      "cnpj": "07526557000100",
+      "ie": "849305621",
+      
+      "address": {
+      "cep": "04530001",
+      "street": "Rua Doutor Renato Paes de Barros",
+      "number": "1017",
+      "complement": "3 Andar Edificio Corp. Park",
+      "district": "ITAIM BIBI",
+      "city": "SAO PAULO",
+      "state": "SP"
+      },
+      "id": 2,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 5
+    },
+    {
+      "quantity": 100,
+      "providerId": 2,
+      "supplyId": 10,
+      "purchasePrice": 3,
+      "totalValue": 300,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "AMBEV S.A.",
+      "fantasyName": "Ambev",
+      "cnpj": "07526557000100",
+      "ie": "849305621",
+      
+      "address": {
+      "cep": "04530001",
+      "street": "Rua Doutor Renato Paes de Barros",
+      "number": "1017",
+      "complement": "3 Andar Edificio Corp. Park",
+      "district": "ITAIM BIBI",
+      "city": "SAO PAULO",
+      "state": "SP"
+      },
+      "id": 2,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 6
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Budweiser - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 9
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 6
+    },
+    {
+      "quantity": 100,
+      "providerId": 3,
+      "supplyId": 1,
+      "purchasePrice": 1.5,
+      "totalValue": 150,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "80700300",
+      "street": "R. Marcelino Champagnat",
+      "number": "2162",
+      "complement": "",
+      "district": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "PR"
+      },
+      "id": 3,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 7
+    },
+    {
+      "quantity": 100,
+      "providerId": 3,
+      "supplyId": 3,
+      "purchasePrice": 0.2,
+      "totalValue": 20,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "80700300",
+      "street": "R. Marcelino Champagnat",
+      "number": "2162",
+      "complement": "",
+      "district": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "PR"
+      },
+      "id": 3,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 8
+    },
+    {
+      "quantity": 100,
+      "providerId": 3,
+      "supplyId": 4,
+      "purchasePrice": 0.5,
+      "totalValue": 50,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "80700300",
+      "street": "R. Marcelino Champagnat",
+      "number": "2162",
+      "complement": "",
+      "district": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "PR"
+      },
+      "id": 3,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 9
+    },
+    {
+      "quantity": 100,
+      "providerId": 3,
+      "supplyId": 11,
+      "purchasePrice": 2,
+      "totalValue": 200,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "80700300",
+      "street": "R. Marcelino Champagnat",
+      "number": "2162",
+      "complement": "",
+      "district": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "PR"
+      },
+      "id": 3,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Leite",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 11
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 10
+    },
+    {
+      "quantity": 100,
+      "providerId": 4,
+      "supplyId": 2,
+      "purchasePrice": 2,
+      "totalValue": 200,
+      "ownerId": 1,
+      "userId": 1,
+      
+      "supplyData": {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 4,
+      "id": 2
+      },
+      
+      "providerData": {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "JBS",
+      "fantasyName": "Friboi",
+      "cnpj": "54345678932456",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "16404110",
+      "street": "Parque industrial LIns",
+      "number": "4367",
+      "complement": "",
+      "district": "Centro",
+      "city": "Lins",
+      "state": "PR"
+      },
+      "id": 4,
+      
+      "supplies": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 4,
+      "id": 2
+      }
+      ]
+      },
+      "status": "Finalizado",
+      "id": 11
     }
   ],
-  "finances": [],
-  "orders": [],
-  "tickets": [],
-  "developers": [
+
+  "tickets": [
     {
+
+      "clientInfo": {
+      "email": "user1@email.com",
+      "password": "$2a$10$GLd5efu4sKNbtMvFHYOB8eKp8nZmNgo4MF62rt.On7S9R9LGGee3K",
+      "name": "Maria da Penha",
+      
+      "addressInfo": {
+      "cep": "80810040",
+      "address": "Rua Alcides Munhoz",
+      "city": "Curitiba",
+      "state": "PR",
+      "number": "433"
+      },
+      "id": 2
+      },
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ticketProducts": [
+      
+      {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/e5/6c/7e/e56c7e393100191ba9958d734cd0d0f2.jpg",
+      "price": 18.9,
+      "category": "Lanches",
+      "name": "Classic's Burguer",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
       "id": 1,
-      "name": "Gabriel Schneider",
-      "picture": "https://avatars.githubusercontent.com/u/95247605?v=4",
-      "position": "Product Owner",
-      "contact": "https://github.com/dejazz"
-    },
-    {
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 4,
       "id": 2,
-      "name": "Tarcila Garcia",
-      "picture": "https://avatars.githubusercontent.com/u/91735036?v=4",
-      "position": "Scrum Master",
-      "contact": "https://github.com/tarcilasg"
-    },
-    {
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
       "id": 3,
-      "name": "Richard Cândido",
-      "picture": "https://avatars.githubusercontent.com/u/92825642?v=4",
-      "position": "Tech Leader",
-      "contact": "https://github.com/rich-dacan"
-    },
-    {
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
       "id": 4,
-      "name": "Rafael Mallorga",
-      "picture": "https://avatars.githubusercontent.com/u/60415930?v=4",
-      "position": "Quality Assurance",
-      "contact": "https://github.com/rafhaelmallorga"
-    },
-    {
+      "qty": 1
+      }
+      ],
+      "rating": 5,
+      "id": 1,
+      "quantity": 2
+      },
+      
+      {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/c1/ac/7d/c1ac7d80d57ef2f96ece63ca34bcb0f3.jpg",
+      "price": 6,
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2.5,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Coca Cola - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
       "id": 5,
-      "name": "Acauan Nascimento",
-      "picture": "https://avatars.githubusercontent.com/u/91680125?v=4",
-      "position": "Quality Assurance",
-      "contact": "https://github.com/acauankz"
+      "qty": 1
+      }
+      ],
+      "rating": 5,
+      "id": 8,
+      "quantity": 1
+      },
+      
+      {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/d7/97/c9/d797c9575a821a35fa876408ea932f33.jpg",
+      "price": 4,
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "1",
+      "category": "Bebidas",
+      "name": "Fanta Laranja - Lata 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 1,
+      "id": 8,
+      "qty": 1
+      }
+      ],
+      "rating": 5,
+      "id": 9,
+      "quantity": 1
+      }
+      ],
+      "status": "Pronto entrega",
+      "id": 1
     },
     {
+
+      "clientInfo": {
+      "email": "user2@email.com",
+      "password": "$2a$10$5qlTv.6Nn9KhFPKU7F0zzeHEga1RIKWsEVIpQJnv2HEMV9jLagnsG",
+      "name": "Joao Marcos",
+      
+      "addressInfo": {
+      "cep": "80250190",
+      "address": "Avenida Iguaçu",
+      "city": "Curitiba",
+      "state": "PR",
+      "number": "1236"
+      },
+      "id": 3
+      },
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ticketProducts": [
+      
+      {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://files.slack.com/files-pri/TQZR39SET-F03G89A46KC/image.png",
+      "price": 20.9,
+      "category": "Lanches",
+      "name": "Chicken Master",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 4,
+      "id": 2,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4,
+      "qty": 1
+      }
+      ],
+      "rating": 5,
+      "id": 4,
+      "quantity": 1
+      },
+      
+      {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/af/93/76/af9376a943d4fd7e46e9a1cf6df49a91.jpg",
+      "price": 30.9,
+      "category": "Bebidas",
+      "name": "X-Death",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 4,
+      "id": 2,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4,
+      "qty": 1
+      }
+      ],
+      "rating": 5,
+      "id": 14,
+      "quantity": 1
+      },
+      
+      {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/00/20/d1/0020d19814fce964cb04fe9229a30f59.jpg",
+      "price": 6,
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Cerveja Heineken - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
       "id": 6,
-      "name": "Lucas Bacelar",
-      "picture": "https://avatars.githubusercontent.com/u/95295788?v=4",
-      "position": "Quality Assurance",
-      "contact": "https://github.com/Iluscadev"
+      "qty": 1
+      }
+      ],
+      "rating": 5,
+      "id": 10,
+      "quantity": 2
+      }
+      ],
+      "status": "Pronto entrega",
+      "id": 2
+    },
+    {
+
+      "clientInfo": {
+      "email": "user3@email.com",
+      "password": "$2a$10$jBmgloKuxMoYtPaJqmAa/ekJs7w6hiAz/Hwlm4MKLT50w2vIXNLNC",
+      "name": "Fernando Santos",
+      
+      "addressInfo": {
+      "cep": "80310420",
+      "address": "Rua João Alencar Guimarães",
+      "city": "Curitiba",
+      "state": "PR",
+      "number": "1096"
+      },
+      "id": 4
+      },
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ticketProducts": [
+      
+      {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/dd/9f/be/dd9fbec5211ff778bf28f1f5c858f8ce.jpg",
+      "price": 22.49,
+      "category": "Lanches",
+      "name": "X-veg",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 1.5,
+      "provider": "3",
+      "category": "Panificadora",
+      "name": "Pao de Hamburguer",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 1,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 2,
+      "provider": "4",
+      "category": "Carnes",
+      "name": "Hamburguer de Carne",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 4,
+      "id": 2,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.2,
+      "provider": "3",
+      "category": "Hortaliças",
+      "name": "Alface",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 3,
+      "qty": 1
+      },
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 0.5,
+      "provider": "3",
+      "category": "Lacticínios",
+      "name": "Queijo",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 3,
+      "id": 4,
+      "qty": 1
+      }
+      ],
+      "rating": 5,
+      "id": 3,
+      "quantity": 1
+      },
+      
+      {
+      "description": "Uuuhm... que delicia!",
+      "image": "https://i.pinimg.com/564x/08/cb/d7/08cbd764b9f21b8350436a78012daa4e.jpg",
+      "price": 14.9,
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      
+      "ingredients": [
+      
+      {
+      "measurementUnit": "Un",
+      "purchasePrice": 3,
+      "provider": "2",
+      "category": "Bebidas",
+      "name": "Estrella Galicia - 350ml",
+      "ownerId": 1,
+      "userId": 1,
+      "providerId": 2,
+      "id": 10,
+      "qty": 1
+      }
+      ],
+      "rating": 5,
+      "id": 12,
+      "quantity": 1
+      }
+      ],
+      "status": "Pronto entrega",
+      "id": 3
     }
   ]
 }
