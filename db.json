@@ -6,6 +6,47 @@
       "name": "Admin",
       "id": 1,
       "userId": 1
+    },
+    {
+      "email": "user1@email.com",
+      "password": "$2a$10$GLd5efu4sKNbtMvFHYOB8eKp8nZmNgo4MF62rt.On7S9R9LGGee3K",
+      "name": "Maria da Penha",
+        "addressInfo": {
+        "cep": "80810040",
+        "address": "Rua Alcides Munhoz",
+        "city": "Curitiba",
+        "state": "PR",
+        "number": "433"
+      },
+      "id": 2
+    },
+    {
+      "email": "user2@email.com",
+      "password": "$2a$10$5qlTv.6Nn9KhFPKU7F0zzeHEga1RIKWsEVIpQJnv2HEMV9jLagnsG",
+      "name": "Joao Marcos",
+      
+      "addressInfo": {
+        "cep": "80250190",
+        "address": "Avenida Iguaçu",
+        "city": "Curitiba",
+        "state": "PR",
+        "number": "1236"
+      },
+      "id": 3
+    },
+    {
+      "email": "user3@email.com",
+      "password": "$2a$10$jBmgloKuxMoYtPaJqmAa/ekJs7w6hiAz/Hwlm4MKLT50w2vIXNLNC",
+      "name": "Fernando Santos",
+      
+      "addressInfo": {
+        "cep": "80310420",
+        "address": "Rua João Alencar Guimarães",
+        "city": "Curitiba",
+        "state": "PR",
+        "number": "1096"
+      },
+      "id": 4
     }
   ],
   "products": [
@@ -208,41 +249,97 @@
   ],
   "providers": [
     {
-      "id": 1,
       "userId": 1,
       "ownerId": 1,
-      "companyName": "Coca Cola S.A.",
+      "companyName": "COCA COLA INDUSTRIAS LTDA",
       "fantasyName": "Coca Cola",
-      "cnpj": "00.000.000/0001-00",
-      "ie": "00.000.000-2",
+      "cnpj": "45997418000153",
+      "ie": "398401264",
       "address": {
-        "cep": "10000-000",
-        "street": "dos Bandeirantes",
-        "number": "111",
-        "complement": "",
-        "district": "district",
-        "city": "São Paulo",
-        "state": "SP"
-      }
+        "cep": "22250040",
+        "street": "Pr De Botafogo",
+        "number": "374",
+        "complement": "ANDAR 12 PARTE",
+        "district": "Botafogo",
+        "city": "Rio De Janeiro",
+        "state": "RJ"
+      },
+      "id": 1
     },
     {
-      "id": 2,
       "userId": 1,
       "ownerId": 1,
-      "companyName": "Bovmeat S.A.",
-      "fantasyName": "Bovmeat",
-      "cnpj": "00.000.000/0002-00",
-      "ie": "00.000.000-3",
+      "companyName": "AMBEV S.A.",
+      "fantasyName": "Ambev",
+      "cnpj": "07526557000100",
+      "ie": "849305621",
       "address": {
-        "cep": "20000-000",
-        "street": "dos Expedicionários",
-        "number": "222",
+        "cep": "04530001",
+        "street": "Rua Doutor Renato Paes de Barros",
+        "number": "1017",
+        "complement": "3 Andar Edificio Corp. Park",
+        "district": "ITAIM BIBI",
+        "city": "SAO PAULO",
+        "state": "SP"
+      },
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "Pão de Açúcar LTDA",
+      "fantasyName": "Pão de Açúcar ",
+      "cnpj": "47508411000156",
+      "ie": "123456789",
+      "address": {
+        "cep": "80700300",
+        "street": "R. Marcelino Champagnat",
+        "number": "2162",
         "complement": "",
-        "district": "district",
-        "city": "Rio de Janeiro",
-        "state": "RJ"
-      }
+        "district": "Bigorrilho",
+        "city": "Curitiba",
+        "state": "PR"
+      },
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "JBS",
+      "fantasyName": "Friboi",
+      "cnpj": "54345678932456",
+      "ie": "123456789",
+      
+      "address": {
+      "cep": "16404110",
+      "street": "Parque industrial LIns",
+      "number": "4367",
+      "complement": "",
+      "district": "Centro",
+      "city": "Lins",
+      "state": "PR"
+      },
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "ownerId": 1,
+      "companyName": "JBS",
+      "fantasyName": "Friboi",
+      "cnpj": "54345678932456",
+      "ie": "123456789",
+      "address": {
+        "cep": "16404110",
+        "street": "Parque industrial LIns",
+        "number": "4367",
+        "complement": "",
+        "district": "Centro",
+        "city": "Lins",
+        "state": "PR"
+      },
+      "id": 4
     }
+
   ],
   "supplies": [
     {
@@ -325,7 +422,7 @@
   "developers": [
     {
       "id": 1,
-      "name": "Gabriel Schineider",
+      "name": "Gabriel Schneider",
       "picture": "https://avatars.githubusercontent.com/u/95247605?v=4",
       "position": "Product Owner",
       "contact": "https://github.com/dejazz"
