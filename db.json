@@ -67,31 +67,31 @@
     },
     {
       "id": 3,
-      "name": "Richard Cândido",
-      "picture": "https://avatars.githubusercontent.com/u/92825642?v=4",
+      "name": "Iasmim Dantas",
+      "picture": "https://avatars.githubusercontent.com/u/91652517?v=4",
       "position": "Tech Leader",
-      "contact": "https://github.com/rich-dacan"
+      "contact": "https://github.com/iasmimd"
     },
     {
       "id": 4,
-      "name": "Rafhael Mallorga",
-      "picture": "https://avatars.githubusercontent.com/u/60415930?v=4",
-      "position": "Quality Assurance",
-      "contact": "https://github.com/rafhaelmallorga"
+      "name": "Richard Cândido",
+      "picture": "https://avatars.githubusercontent.com/u/92825642?v=4",
+      "position": "Full Stack Developer",
+      "contact": "https://github.com/rich-dacan"
     },
     {
       "id": 5,
-      "name": "Acauan Nascimento",
-      "picture": "https://avatars.githubusercontent.com/u/91680125?v=4",
-      "position": "Quality Assurance",
-      "contact": "https://github.com/acauankz"
+      "name": "Rafhael Mallorga",
+      "picture": "https://avatars.githubusercontent.com/u/60415930?v=4",
+      "position": "Full Stack Developer",
+      "contact": "https://github.com/rafhaelmallorga"
     },
     {
-      "id": 6,
-      "name": "Lucas Bacelar",
-      "picture": "https://avatars.githubusercontent.com/u/95295788?v=4",
-      "position": "Quality Assurance",
-      "contact": "https://github.com/Iluscadev"
+      "id": 7,
+      "name": "Lucas Golle",
+      "picture": "https://avatars.githubusercontent.com/u/95288042?v=4",
+      "position": "Full Stack Developer",
+      "contact": "https://github.com/lucasgolle"
     }
   ],
 
